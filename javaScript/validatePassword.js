@@ -7,16 +7,16 @@ function Validate(word) {
     if (l === l.toLowerCase()) return "lowerLetter"
   })
   if (!typeChar.includes('number')) {
-    console.log("* Entrer un chiffre")
+    console.log("* Enter a number")
   }
   if (!typeChar.includes("upperLetter")) {
-    console.log("* Entrer une lettre majuscule ")
+    console.log("*Enter a capital letter")
   }
   if (!typeChar.includes("lowerLetter")) {
-    console.log("* Entrer une lettre minuscule")
+    console.log("* Enter a lowercase letter")
   }
   if (toChars.length < 8) {
-    console.log("* Taille du mot < 8")
+    console.log("* Word length < 8")
   }
 }
 Validate("helloS1311")
